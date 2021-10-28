@@ -1,0 +1,101 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xCDE1FFA7CDE1FFA7",
+      "device": "xc7z007sclg225-1",
+      "gen_directory": "../../../../testminized.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "vio_0": "",
+      "zevenSegment_0": "",
+      "vhdlnoclk_0": ""
+    },
+    "ports": {
+      "LED_out_0": {
+        "direction": "O",
+        "left": "6",
+        "right": "0"
+      }
+    },
+    "components": {
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "design_1_vio_0_0",
+        "xci_path": "ip/design_1_vio_0_0/design_1_vio_0_0.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "0"
+          },
+          "C_PROBE_OUT0_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "zevenSegment_0": {
+        "vlnv": "xilinx.com:module_ref:zevenSegment:1.0",
+        "xci_name": "design_1_zevenSegment_0_0",
+        "xci_path": "ip/design_1_zevenSegment_0_0/design_1_zevenSegment_0_0.xci",
+        "inst_hier_path": "zevenSegment_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "zevenSegment",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "BCD": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "LED_out": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          }
+        }
+      },
+      "vhdlnoclk_0": {
+        "vlnv": "xilinx.com:module_ref:vhdlnoclk:1.0",
+        "xci_name": "design_1_vhdlnoclk_0_0",
+        "xci_path": "ip/design_1_vhdlnoclk_0_0/design_1_vhdlnoclk_0_0.xci",
+        "inst_hier_path": "vhdlnoclk_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vhdlnoclk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk65MHz": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "vhdlnoclk_0_clk65MHz": {
+        "ports": [
+          "vhdlnoclk_0/clk65MHz",
+          "vio_0/clk"
+        ]
+      },
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "zevenSegment_0/BCD"
+        ]
+      },
+      "zevenSegment_0_LED_out": {
+        "ports": [
+          "zevenSegment_0/LED_out",
+          "LED_out_0"
+        ]
+      }
+    }
+  }
+}

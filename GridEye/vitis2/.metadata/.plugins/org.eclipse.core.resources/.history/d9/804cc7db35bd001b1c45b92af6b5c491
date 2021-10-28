@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="GridEyeVitis" location="C:/SoC/GridEye/vitis2/GridEyeVitis" platform="C:/SoC/GridEye/vitis2/GridEyeV/export/GridEyeV/GridEyeV.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="GridEyeVitis_system" sysConfig="GridEyeV" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="6abede5feb64eec27bde011efb7c3937">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.128859379" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1004927917" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

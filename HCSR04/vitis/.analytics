@@ -1,0 +1,24 @@
+timestamp=[2021-10-08 22:33:54], mode=WORKBENCH_START, duration=0:00:06.592, duration_ms=6592, data={}
+timestamp=[2021-10-08 22:33:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.038, duration_ms=38, data={}
+timestamp=[2021-10-08 22:33:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.558, duration_ms=558, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2021-10-08 22:35:57], mode=APP_CREATION, duration=0:00:16.809, duration_ms=16809, data={name=HCSR4app, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=HCSR04, application_type=application}
+timestamp=[2021-10-08 22:38:36], mode=PLATFORM_GENERATION, duration=0:00:13.314, duration_ms=13314, data={name=HCSR04}
+timestamp=[2021-10-08 22:38:45], mode=BUILD, duration=0:00:00.778, duration_ms=778, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-08 22:48:01], mode=BUILD, duration=0:00:00.623, duration_ms=623, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-08 22:48:14], mode=BUILD, duration=0:00:00.774, duration_ms=774, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-08 22:48:47], mode=BUILD, duration=0:00:00.722, duration_ms=722, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-08 22:49:07], mode=BUILD, duration=0:00:00.623, duration_ms=623, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-08 22:49:32], mode=BUILD, duration=0:00:00.723, duration_ms=723, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-08 22:57:28], mode=BUILD, duration=0:00:00.775, duration_ms=775, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-09 12:13:58], mode=WORKBENCH_START, duration=0:00:08.481, duration_ms=8481, data={}
+timestamp=[2021-10-09 12:13:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.035, duration_ms=35, data={}
+timestamp=[2021-10-09 12:14:00], mode=WORKBENCH_UI_INIT, duration=0:00:01.326, duration_ms=1326, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HCSR04,HCSR4app,HCSR4app_system,RemoteSystemsTempFiles}
+timestamp=[2021-10-09 12:14:35], mode=BUILD, duration=0:00:00.620, duration_ms=620, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-09 12:14:38], mode=BUILD, duration=0:00:00.577, duration_ms=577, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-09 12:25:28], mode=WORKBENCH_START, duration=0:00:07.288, duration_ms=7288, data={}
+timestamp=[2021-10-09 12:25:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.044, duration_ms=44, data={}
+timestamp=[2021-10-09 12:25:30], mode=WORKBENCH_UI_INIT, duration=0:00:01.361, duration_ms=1361, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HCSR04,HCSR4app,HCSR4app_system,RemoteSystemsTempFiles}
+timestamp=[2021-10-09 12:25:37], mode=BUILD, duration=0:00:00.865, duration_ms=865, data={name=HCSR4app, configuration=Debug, clean_build=false}
+timestamp=[2021-10-11 11:07:51], mode=WORKBENCH_START, duration=0:00:09.458, duration_ms=9458, data={}
+timestamp=[2021-10-11 11:07:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.065, duration_ms=65, data={}
+timestamp=[2021-10-11 11:07:53], mode=WORKBENCH_UI_INIT, duration=0:00:01.561, duration_ms=1561, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=HCSR04,HCSR4app,HCSR4app_system,RemoteSystemsTempFiles}

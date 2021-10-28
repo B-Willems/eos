@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="/home/bram/eos/zevensegment_customIP;/home/bram/eos/zevensegment_customIP/vitis/7segment_customAXI_platform/export/7segment_customAXI_platform"/>
+</section>

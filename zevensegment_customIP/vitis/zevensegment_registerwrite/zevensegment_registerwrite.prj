@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="zevensegment_registerwrite" location="/home/bram/eos/zevensegment_customIP/vitis/zevensegment_registerwrite" platform="/home/bram/eos/zevensegment_customIP/vitis/7segment_customAXI_platform/export/7segment_customAXI_platform/7segment_customAXI_platform.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="zevensegment_registerwrite_system" sysConfig="7segment_customAXI_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="48e8c3312a3f6d9d09dc28ca96e9068e">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.357309576">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1548445199" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

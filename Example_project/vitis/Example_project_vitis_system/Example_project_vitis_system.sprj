@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="Example_project_vitis_system" platform="/home/bram/eos/Example_project/vitis/Example_project_hardware/export/Example_project_hardware/Example_project_hardware.xpfm" platformUID="xilinx:minized::0.0(custom)" sysConfig="Example_project_hardware" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.865166331">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="Example_project_vitis" domainName="freertos10_xilinx_ps7_cortexa9_0" domainPrettyName="freertos10_xilinx_ps7_cortexa9_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.743092206">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="Example_project_vitis" domainName="freertos10_xilinx_ps7_cortexa9_0" domainPrettyName="freertos10_xilinx_ps7_cortexa9_0" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

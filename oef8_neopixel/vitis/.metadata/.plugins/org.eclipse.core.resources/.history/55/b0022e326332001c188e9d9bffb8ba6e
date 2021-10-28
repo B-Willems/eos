@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="oef8_neopixel_app" location="/home/bram/eos/oef8_neopixel/vitis/oef8_neopixel_app" platform="/home/bram/eos/oef8_neopixel/vitis/oef8_neopixel/export/oef8_neopixel/oef8_neopixel.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="oef8_neopixel_app_system" sysConfig="oef8_neopixel" runtime="cpp" cpu="freertos10_xilinx_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="freertos10_xilinx" mssSignature="3c1a7432d94d1a280851a2f7889d9b5c">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1297867648">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1729374715" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="freertos_hello_world"/>
+</sdkproject:SdkProject>

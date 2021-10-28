@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Example_project_vitis" location="/home/bram/eos/Example_project/vitis/Example_project_vitis" platform="/home/bram/eos/Example_project/vitis/Example_project_hardware/export/Example_project_hardware/Example_project_hardware.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="Example_project_vitis_system" sysConfig="Example_project_hardware" runtime="cpp" cpu="freertos10_xilinx_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="freertos10_xilinx" mssSignature="b19aba21340457682016c50d0760bf6d">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1132561696">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.299520658" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="freertos_hello_world"/>
+</sdkproject:SdkProject>

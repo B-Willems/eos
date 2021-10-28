@@ -1,0 +1,152 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC6C67A71C6C67A71",
+      "device": "xc7z007sclg225-1",
+      "gen_directory": "../../../../neonpixel_no_axi.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "vhdlnoclk_0": "",
+      "clk_wiz_0": "",
+      "WS2812_0": ""
+    },
+    "ports": {
+      "dout_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "vhdlnoclk_0": {
+        "vlnv": "xilinx.com:module_ref:vhdlnoclk:1.0",
+        "xci_name": "design_1_vhdlnoclk_0_0",
+        "xci_path": "ip/design_1_vhdlnoclk_0_0/design_1_vhdlnoclk_0_0.xci",
+        "inst_hier_path": "vhdlnoclk_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vhdlnoclk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk65MHz": {
+            "direction": "O"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "xci_path": "ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "153.84"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "173.188"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "109.791"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "50.000"
+          },
+          "CLKOUT2_JITTER": {
+            "value": "156.423"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "112.219"
+          },
+          "CLKOUT2_USED": {
+            "value": "false"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "15.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "15.385"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.0"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "19.500"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "1"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "1"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "65"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "WS2812_0": {
+        "vlnv": "xilinx.com:module_ref:WS2812:1.0",
+        "xci_name": "design_1_WS2812_0_0",
+        "xci_path": "ip/design_1_WS2812_0_0/design_1_WS2812_0_0.xci",
+        "inst_hier_path": "WS2812_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "WS2812",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "50000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "d_out": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "WS2812_0_d_out": {
+        "ports": [
+          "WS2812_0/d_out",
+          "dout_0"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "WS2812_0/clk"
+        ]
+      },
+      "vhdlnoclk_0_clk65MHz": {
+        "ports": [
+          "vhdlnoclk_0/clk65MHz",
+          "clk_wiz_0/clk_in1"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="/home/bram/eos/7seg_AXI_freeRTOS/vitis/oef8hw/export/oef8hw"/>
+</section>
